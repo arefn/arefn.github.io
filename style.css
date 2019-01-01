@@ -1,0 +1,91 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+    Style
+    @author : aref norouzzadeh
+    @site : http://arefn.ir/
+*/
+html,body {
+  height: 100%;
+  margin:0;
+  padding:0;
+}
+body {
+  min-height: 100%;
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+  text-align:center;
+}
+.titles {
+  padding: 0 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+h1 {
+  font-size: 36px;
+  font-size: 5.4vw;
+}
+h2 {
+  font-size: 18px;
+  font-size: 2.7vw;
+  font-weight:300;
+
+  margin-top: 10vh;
+}
+/*-----------------------------------------------*/
+@media (min-width: 320px) and (max-width: 480px) {
+  h1 {font-size: 36px;}
+  h2 {font-size: 18px;}
+}
